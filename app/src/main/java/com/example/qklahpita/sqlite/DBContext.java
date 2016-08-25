@@ -18,6 +18,7 @@ public class DBContext {
     private DBContext(Context context) {
         this.openHelper = new DatabaseOpenHelper(context);
     }
+    // hi hi
 
     private static DBContext inst;
     public static DBContext getInst(Context context) {
